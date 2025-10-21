@@ -23,17 +23,6 @@ out/
 .DS_Store
 
 #############################
-# Spring Boot
-#############################
-# Environment and local config files
-application.yml
-application.yaml
-application.properties
-.env
-*.local.yml
-*.local.yaml
-
-#############################
 # OS Files
 #############################
 # Windows
