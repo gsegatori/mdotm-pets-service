@@ -1,0 +1,74 @@
+#############################
+# Maven & Build
+#############################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+.log
+*.log
+
+#############################
+# IntelliJ / IDE
+#############################
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.classpath
+.project
+.settings/
+.vscode/
+.DS_Store
+
+#############################
+# Spring Boot
+#############################
+# Environment and local config files
+application.yml
+application.yaml
+application.properties
+.env
+*.local.yml
+*.local.yaml
+
+#############################
+# OS Files
+#############################
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#############################
+# Logs & Temp
+#############################
+*.tmp
+*.bak
+*.swp
+*.swo
+*.err
+*.orig
+*.pid
+*.seed
+*.gz
+
+#############################
+# Others
+#############################
+# JetBrains HTTP Client
+httpRequests/
+# H2 Database file (if you ever use file-based mode)
+*.mv.db
+*.h2.db
+# Node (if you ever add frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
