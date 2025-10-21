@@ -1,6 +1,6 @@
 # Mdotm.ai Java Assignment — Pets Service
 
-A Spring Boot 3 (Java 21) REST API implementing a simple CRUD for *Pets*, 
+A Spring Boot 3 (Java 17) REST API implementing a simple CRUD for *Pets*, 
 designed with clean architecture principles and documented via OpenAPI (Swagger UI).
 
 ## Overview
