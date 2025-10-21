@@ -18,7 +18,7 @@ designed with clean architecture principles and documented via OpenAPI (Swagger 
 - springdoc-openapi + Swagger UI
 - JUnit 5
 
-## 🚀 Run locally
+## Run locally
 ```bash
 mvn clean spring-boot:run
 ```
@@ -27,7 +27,7 @@ Open:
 - OpenAPI JSON → http://localhost:8080/v3/api-docs
 - H2 Console → http://localhost:8080/h2-console (JDBC: `jdbc:h2:mem:petsdb`)
 
-## 🐾 API Endpoints
+## API Endpoints
 
 ### 1) Create a new Pet
 **POST** `/pets`
@@ -75,32 +75,6 @@ Example response:
   "totalPages": 1,
   "items": [ { /* PetResponse */ } ]
 }
-```
-
-## 🧱 Project Structure
-```
-src/main/java/ai/mdotm/assignment/pets
-├── PetsApplication.java
-├── domain/
-│   ├── Pet.java
-│   └── PetRepository.java
-├── application/
-│   ├── PetService.java
-│   └── PetNotFoundException.java
-├── infrastructure/jpa/
-│   ├── PetEntity.java
-│   ├── JpaPetRepository.java
-│   └── PetRepositoryJpaAdapter.java
-├── web/
-│   ├── PetController.java
-│   ├── PetMapper.java
-│   ├── GlobalExceptionHandler.java
-│   └── dto/
-│       ├── PetRequest.java
-│       ├── PetResponse.java
-│       └── PagedResponse.java
-└── config/
-    └── OpenApiConfiguration.java
 ```
 
 ## ✅ Notes
