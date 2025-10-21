@@ -28,7 +28,7 @@ public class OpenApiConfiguration {
                                 .name("Giorgio Segatori")
                                 .email("ilmagodioz@live.it")
                                 .url("https://github.com/gsegatori"))
-                                .description("My github has only 1 public repo, the others are private, request the access")
+                                .description("My github has only 1 public repo (2 with this one), the others are private, request the access")
                         .license(new License()
                                 .name("Apache 2.0")
                                 .url("https://www.apache.org/licenses/LICENSE-2.0.html"))
